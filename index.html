@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saraswati | Vocal Pitch Stability</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+        :root {
+            --primary: #6c5ce7;
+            --secondary: #a29bfe;
+            --accent: #00cec9;
+            --bg: #f9f9f9;
+            --text: #2d3436;
+        }
+
+        body {
+            font-family: 'Quicksand', 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--text);
+            font-weight: 300;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 80px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #6c5ce7 0%, #00cec9 100%);
+            color: white;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            font-weight: 400;
+            letter-spacing: -1px;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: -50px auto 50px;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+
+        .screenshots {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+
+        .phone-frame {
+            width: 280px;
+            border-radius: 32px;
+            border: 8px solid #2d3436;
+            overflow: hidden;
+            background: #eee;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .phone-frame img {
+            width: 100%;
+            display: block;
+        }
+
+        .placeholder-img {
+            height: 560px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #aaa;
+            font-size: 0.9rem;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 18px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(108, 92, 231, 0.3);
+        }
+
+        h2 {
+            font-weight: 400;
+            color: var(--primary);
+            font-size: 2rem;
+            margin-top: 0;
+        }
+
+        .rainbow-logic {
+            background: linear-gradient(to right, #ff7675, #fab1a0, #ffeaa7, #55efc4, #81ecec, #74b9ff, #a29bfe);
+            padding: 2px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        .rainbow-inner {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 0.9rem;
+            color: #636e72;
+        }
+
+        .privacy-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .privacy-list li {
+            margin-bottom: 15px;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .privacy-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Saraswati</h1>
+    <p class="tagline">The Art of Vocal Pitch Stability</p>
+</header>
+
+<div class="container">
+    <div class="card" style="text-align:center;">
+        <h2>Precision Training</h2>
+        <p>A minimalist utility designed for vocalists pursuing frequency mastery. Real-time analysis with "Rainbow Logic" visual feedback for high-stability practice.</p>
+        
+        <div class="screenshots">
+            <div class="phone-frame">
+                <div class="placeholder-img"><img src="Screenshot-1.png" alt="Saraswati Pitch Tracker Screenshot"></div>
+            </div>
+            <div class="phone-frame">
+                <div class="placeholder-img"><img src="Screenshot-2.png" alt="Saraswati Pitch Tracker Screenshot"></div>
+            </div>
+        </div>
+
+        <a href="https://groups.google.com/g/saraswati-testers" class="btn">Join Testing Group</a>
+    </div>
+
+    <div class="card">
+        <h2>Privacy by Design</h2>
+        <ul class="privacy-list">
+            <li><strong>Zero Data Collection:</strong> We do not collect, share, or store any personal information.</li>
+            <li><strong>Local Analysis:</strong> Your voice is processed in real-time on your device. Audio is never recorded or uploaded.</li>
+            <li><strong>No Tracking:</strong> No analytics, no cookies, no third-party SDKs.</li>
+            <li><strong>Minimal Permissions:</strong> Microphone access is used exclusively for frequency detection.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Support & Community</h2>
+        <p>Participate in the development of Saraswati. Join our testing community to report bugs, suggest features, or share your practice results.</p>
+        <p><strong>Testing Group:</strong> <a href="https://groups.google.com/g/saraswati-testers" style="color: var(--primary);">saraswati-testers@googlegroups.com</a></p>
+    </div>
+</div>
+
+<footer>
+    &copy; 2026 Saraswati. Designed for clarity and precision.
+</footer>
+
+</body>
+</html>
