@@ -1,0 +1,156 @@
+/* --- 1. Base Layout & Wrapper --- */
+body, html {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#canvas-wrapper {
+    position: relative;
+    max-width: 97vw;
+    max-height: 97vh;
+    box-shadow: 0 0 30px rgba(0,0,0,0.7);
+}
+
+#rippleCanvas {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main-title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-weight: 300;
+    font-size: 3.5vw;
+    color: #000;
+    letter-spacing: 1px;
+    z-index: 20;
+    pointer-events: none;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.7));
+}
+
+/* --- 2. Interactive Navigation Items --- */
+.nav-item {
+    position: absolute;
+    z-index: 10;
+    width: 22%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    pointer-events: none; /* Passthrough to inner elements */
+    color: #000;
+    font-weight: 400;
+    font-size: 2.2vw;
+    filter: drop-shadow(0 0 2px #fff) drop-shadow(0 0 10px #fff) drop-shadow(0 0 20px rgba(255,255,255,0.8));
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+                color 0.3s ease, filter 0.3s ease, opacity 0.5s ease;
+    opacity: 1;
+}
+
+.nav-item a, 
+.nav-item span {
+    pointer-events: auto;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-item:hover {
+    color: #FF0000;
+    transform: translate(-50%, -50%) scale(1.15) !important;
+    transition: 0.9s;
+    filter: drop-shadow(0 8px 15px rgba(0, 0, 0, 0.6));
+}
+
+/* Position Mapping */
+#btn-download  { top: 38%; left: 25%; transform: translate(-50%, -50%); }
+#btn-demo      { top: 38%; left: 75%; transform: translate(-50%, -50%); }
+#btn-community { top: 73%; left: 36%; transform: translate(-50%, -50%); }
+#btn-about     { top: 73%; left: 64%; transform: translate(-50%, -50%); }
+
+/* --- 3. Center Icon & Demo Visuals --- */
+.center-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 20vmin; 
+    
+    min-width: 80px; 
+    max-width: 200px; 
+    
+    border-radius: 12px;
+    overflow: hidden;
+    z-index: 25;
+    pointer-events: none;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 1));
+    
+    transition: opacity 0.5s ease, filter 0.3s ease;
+    opacity: 1;
+}
+
+@keyframes fadeInIcon {
+    from { opacity: 0; transform: translate(-50%, -45%); }
+    to { opacity: 1; transform: translate(-50%, -50%); }
+}
+
+/* --- 4. Transition & Utility States --- */
+.nav-item.faded, 
+.center-icon.faded {
+    opacity: 0 !important;
+    pointer-events: none;
+}
+
+/* --- 5. Footer --- */
+.footer-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    z-index: 30;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    color: #888;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.9), 
+                 0 0 18px rgba(255, 255, 255, 0.5);
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.3s ease, color 0.3s ease;
+}
+
+.footer-right a:hover {
+    color: red;
+}
+
+.footer-left {
+    opacity: 0.8;
+}
+
+.separator {
+    margin: 0 10px;
+    opacity: 0.5;
+}
