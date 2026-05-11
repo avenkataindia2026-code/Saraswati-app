@@ -44,7 +44,8 @@ body, html {
 .nav-item {
     position: absolute;
     z-index: 10;
-    width: 22%;
+    /*width: 22%;*/
+    white-space: nowrap;
     aspect-ratio: 1/1;
     display: flex;
     justify-content: center;
@@ -64,9 +65,10 @@ body, html {
 .nav-item span {
     pointer-events: auto;
     cursor: pointer;
-    display: block;
+    display: inline-block;
     width: 100%;
-    padding: 15px 0;
+    padding: 15px 20px;
+    /* padding: 15px 0;*/
     text-decoration: none;
     color: inherit;
 }
