@@ -63,7 +63,7 @@ function triggerRipple(e) {
         amplitude: RIPPLE_CONFIG.INITIAL_AMP
     });
     
-    new Audio('../audio/519991__casstway__waterdrop.mp3').play().catch(() => {});
+    new Audio('./audio/519991__casstway__waterdrop.mp3').play().catch(() => {});
 }
 
 function renderLoop() {
