@@ -48,7 +48,7 @@ function updateStory(langId) {
 
 const navStates = {
     main: {
-        icon: 'img/icon.webp',
+        icon: './img/icon.webp',
         links: [
             { id: 'nav-dl', text: 'Download App', href: 'https://play.google.com/store/apps/details?id=com.saraswati.tuner', type: 'link' },
             { id: 'nav-yt', text: 'Watch Tutorials', href: 'https://youtube.com/@SaraswatiTuner', type: 'link' },
@@ -57,7 +57,7 @@ const navStates = {
         ]
     },
     community: {
-        icon: 'img/demo-snaps.webp',
+        icon: './img/demo-snaps.webp',
         links: [
             { id: 'nav-dl', text: 'On Reddit', href: 'https://www.reddit.com/r/Saraswati_Tuner/', type: 'link' },
             { id: 'nav-yt', text: 'On Facebook', href: 'https://www.facebook.com/SaraswatiTuner', type: 'link' },
