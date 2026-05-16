@@ -3,9 +3,12 @@ const EN_STORY = `
 
 In another world, in another eon, at another time…<br><br>
 
-Once, lost in a fleeting thought of Murugan, I unknowingly uttered:
-"Show a path for those who seek You, that they may sing and dance to
-praise You."<br><br>
+Once, lost in a fleeting thought of Murugan, I unknowingly uttered:<br><br>
+
+<div style="text-align:center;">
+Show a path for those who seek You, <br>
+that they may sing and dance to praise You.<br><br>
+</div>
 
 That night, Lord Murugan appeared in my dream. "My dear devotee, I
 am pleased with your request. So shall it be," He said.<br><br>
@@ -41,6 +44,13 @@ He took his Tanpura and struck it. He then began to sing the note:
 "Sa…" A divine sound that seemed to melt the very Himalayas.<br><br>
 
 Instantly, Mother Saraswati appeared before us. <br><br>
+
+What a huge stroke of luck! Good thing I happened to meet Narada. I
+surmised that Murugan himself must have arranged for me to meet him
+here. Immediately, I rushed to grab and hold Saraswati's feet. <br><br>
+
+But before I could reach her, Narada stopped singing the "Sa." And
+immediately, Saraswati vanished.<br><br>
 
 What a huge stroke of luck! I rushed to grab and hold her feet.  But
 before I could reach her, Narada stopped singing the "Sa." And
