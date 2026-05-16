@@ -52,10 +52,6 @@ here. Immediately, I rushed to grab and hold Saraswati's feet. <br><br>
 But before I could reach her, Narada stopped singing the "Sa." And
 immediately, Saraswati vanished.<br><br>
 
-What a huge stroke of luck! I rushed to grab and hold her feet.  But
-before I could reach her, Narada stopped singing the "Sa." And
-immediately, Saraswati vanished.<br><br>
-
 Broken-hearted, I fell at Narada's feet. "Master, what test is this?
 Let me see her again so I may worship her."<br><br>
 
